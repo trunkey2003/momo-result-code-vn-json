@@ -1,0 +1,192 @@
+[
+    {
+        "statusCode": "0",
+        "message": "Giao dịch thành công",
+        "status": "success"
+    },
+    {
+        "statusCode": "9000",
+        "message": "Giao dịch đã được xác nhận thành công.",
+        "status": "success"
+    },
+    {
+        "statusCode": "8000",
+        "message": "Giao dịch đang ở trạng thái cần được người dùng xác nhận thanh toán lại.",
+        "status": "pending"
+    },
+    {
+        "statusCode": "7000",
+        "message": "Giao dịch đang được xử lý.",
+        "status": "pending"
+    },
+    {
+        "statusCode": "1000",
+        "message": "Giao dịch đã được khởi tạo, chờ người dùng xác nhận thanh toán.",
+        "status": "pending"
+    },
+    {
+        "statusCode": "11",
+        "message": "Truy cập bị từ chối.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "12",
+        "message": "Phiên bản API không được hỗ trợ cho yêu cầu này.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "13",
+        "message": "Xác thực doanh nghiệp thất bại.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "20",
+        "message": "Yêu cầu sai định dạng.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "22",
+        "message": "Số tiền giao dịch không hợp lệ.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "40",
+        "message": "RequestId bị trùng.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "41",
+        "message": "OrderId bị trùng.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "42",
+        "message": "OrderId không hợp lệ hoặc không được tìm thấy.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "43",
+        "message": "Yêu cầu bị từ chối vì xung đột trong quá trình xử lý giao dịch.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1001",
+        "message": "Giao dịch thanh toán thất bại do tài khoản người dùng không đủ tiền.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1002",
+        "message": "Giao dịch bị từ chối do nhà phát hành tài khoản thanh toán.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1003",
+        "message": "Giao dịch bị đã bị hủy.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1004",
+        "message": "Giao dịch thất bại do số tiền thanh toán vượt quá hạn mức thanh toán của người dùng.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1005",
+        "message": "Giao dịch thất bại do url hoặc QR code đã hết hạn.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1006",
+        "message": "Giao dịch thất bại do người dùng đã từ chối xác nhận thanh toán.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1007",
+        "message": "Giao dịch bị từ chối vì tài khoản người dùng đang ở trạng thái tạm khóa.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1026",
+        "message": "Giao dịch bị hạn chế theo thể lệ chương trình khuyến mãi.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1030",
+        "message": "Đơn hàng thanh toán thất bại do thông tin không hợp lệ.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1080",
+        "message": "Giao dịch hoàn tiền bị từ chối. Giao dịch thanh toán ban đầu không được tìm thấy.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "1081",
+        "message": "Giao dịch hoàn tiền bị từ chối. Giao dịch thanh toán ban đầu có thể đã được hoàn.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "2001",
+        "message": "Giao dịch thất bại do sai thông tin liên kết.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "2007",
+        "message": "Giao dịch thất bại do liên kết hiện đang bị tạm khóa.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "3001",
+        "message": "Liên kết thất bại do người dùng từ chối xác nhận.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "3002",
+        "message": "Liên kết bị từ chối do không thỏa quy tắc liên kết.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "3003",
+        "message": "Hủy liên kết bị từ chối do đã vượt quá số lần hủy.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "3004",
+        "message": "Liên kết này không thể hủy do có giao dịch đang chờ xử lý.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "4001",
+        "message": "Giao dịch bị hạn chế do người dùng chưa hoàn tất xác thực tài khoản.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "4010",
+        "message": "Quá trình xác minh OTP thất bại.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "4011",
+        "message": "OTP chưa được gửi hoặc hết hạn.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "4100",
+        "message": "Giao dịch thất bại do người dùng không đăng nhập thành công.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "4015",
+        "message": "Quá trình xác minh 3DS thất bại.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "10",
+        "message": "Hệ thống đang được bảo trì.",
+        "status": "fail"
+    },
+    {
+        "statusCode": "99",
+        "message": "Lỗi không xác định.",
+        "status": "fail"
+    }
+]
